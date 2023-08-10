@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Playfair+Display:ital,wght@1,600&family=Roboto+Condensed:wght@700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.sidebar{
+    background-color: rgb(48, 6, 40);
+    width: 350px;
+    height: 100vh;
+    
+}
+.sidebar nav{
+    padding: 30px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-family: 'Borel', cursive;
+    font-size: 20px;
+    padding: 15px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.main{
+    background-color: rgb(191, 135, 244);
+    height: 100vh;
+    width: 110vw;
+}
+.container{
+    display: flex;
+}
+.infoc{
+    background-color: rgb(152, 117, 184);
+    height: 60vh;
+    width: 75vw;
+    margin: 144px auto;
+    justify-content: space-around;
+    display: flex;
+    padding: 20px;
+}
+.definfo{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-family: "Audiowide", sans-serif;
+    
+}
+.defpic img{
+    width: 22vw;
+    height: 63vh;
+}
+.hello{
+    font-size: 40px;
+    margin: 15px;
+}
+.name{
+    font-size: 55px;
+    font-weight: bold;
+    margin: 15px;
+}
+.about{
+    font-size: 30px;
+    margin: 15px;
+}
+.moreabout{
+    font-size: 20px;
+    margin: 15px;
+}
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: rgb(63, 5, 46);
+    background-color: #ab13c1;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 20px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    color:#ab13c1 ;
+    background-color: rgb(63, 5, 46);
+}
